@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Natasha/OneDrive/Desktop/kaiwa/app/%28root%29/layout.tsx"],"sourcesContent":["import { ReactNode } from 'react';\r\n\r\nconst RootLayout = ({ children }: { children: ReactNode }) => {\r\n  return (\r\n    <div className=\"root-layout\">\r\n      <nav>\r\n        <Link href=\"/\" className=\"flex items-center gap-2\">\r\n          <Image src=\"/logo.svg\" alt=\"Logo\" width={38} height={32} />\r\n          <h2 className=\"text-primary-100\">PrepWise</h2>\r\n        </Link>\r\n      </nav>\r\n      {children}\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default RootLayout;\r\n"],"names":[],"mappings":";;;;;AAEA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAA2B;IACvD,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BACC,cAAA,8OAAC;oBAAK,MAAK;oBAAI,WAAU;;sCACvB,8OAAC;4BAAM,KAAI;4BAAY,KAAI;4BAAO,OAAO;4BAAI,QAAQ;;;;;;sCACrD,8OAAC;4BAAG,WAAU;sCAAmB;;;;;;;;;;;;;;;;;YAGpC;;;;;;;AAGP;uCAEe","debugId":null}}]
+}

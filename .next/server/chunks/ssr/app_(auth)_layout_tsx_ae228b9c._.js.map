@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Natasha/OneDrive/Desktop/kaiwa/app/%28auth%29/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\r\n//import { redirect } from \"next/navigation\";\r\n\r\n//import { isAuthenticated } from \"@/lib/actions/auth.action\";\r\n\r\nconst AuthLayout =  ({ children }: { children: ReactNode }) => {\r\n//   const isUserAuthenticated = await isAuthenticated();\r\n//   if (isUserAuthenticated) redirect(\"/\");\r\n\r\n  return <div className=\"auth-layout\">{children}</div>;\r\n};\r\n\r\nexport default AuthLayout;"],"names":[],"mappings":";;;;;AACA,6CAA6C;AAE7C,8DAA8D;AAE9D,MAAM,aAAc,CAAC,EAAE,QAAQ,EAA2B;IAC1D,yDAAyD;IACzD,4CAA4C;IAE1C,qBAAO,8OAAC;QAAI,WAAU;kBAAe;;;;;;AACvC;uCAEe","debugId":null}}]
+}
